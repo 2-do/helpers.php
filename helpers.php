@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Translate a string into snakecase
+ * Translate a string into snake case
  * like: snakeCase => snake_case
  *
  * @param   string  $str  string in camel case format
@@ -14,7 +14,7 @@ function snake_case($str) {
 }
 
 /**
- * Translate a string into camelcase
+ * Translate a string into camel case
  * like: camel_case => camelCase
  *
  * @param   string  $str  string in snake case format
