@@ -1,11 +1,11 @@
 <?php
 /**
- * Adds a key to the array if not allready exists
+ * Splits a array into two arrays, one with keys and one with values
  * like: 
- *      $array = array('foo' => 'bar');
- *      $array = array_add($array, 'key', 'value');
+ * 	$array = array('foo' => 'bar');
+ * 	list($keys, $values) = array_divide($array);
  *
- * @param   array   $array   the array to add the given key to
+ * @param   array   $array   the array to split
  * @return  array   array()  returns a array with keys and values
  */
 function array_divide($array)
