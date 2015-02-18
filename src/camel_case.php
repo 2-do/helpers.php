@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Translate a string into camel case
  * like: camel_case => camelCase
