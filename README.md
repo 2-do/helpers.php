@@ -16,3 +16,33 @@ like: `camel_case` => `camelCase`
 ```
 camel_case('hello_world'); // returns: helloWorld
 ```
+
+### dd
+Dumps out all the arguments and end execution
+like: `dd(array('foo' => 'bar'), true, false, null, 'test');` returns:
+```
+array(1) {
+  ["foo"]=>
+  string(3) "bar"
+}
+bool(true)
+bool(false)
+NULL
+string(4) "test"
+```
+
+### array_add
+Adds a key to the array if not allready exists
+like:
+```
+$array = array('foo' => 'bar');
+$array = array_add($array, 'key', 'value');
+```
+
+### array_devide
+Splits a array into two arrays, one with keys and one with values
+like:
+```
+$array = array('foo' => 'bar');
+list($keys, $values) = array_divide($array);
+```
