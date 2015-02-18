@@ -22,8 +22,7 @@ Dumps out all the arguments and end execution
 like: `dd(array('foo' => 'bar'), true, false, null, 'test');` returns:
 ```
 array(1) {
-  ["foo"]=>
-  string(3) "bar"
+  ["foo"]=> string(3) "bar"
 }
 bool(true)
 bool(false)
