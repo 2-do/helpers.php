@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Translate a string into snake case
  * like: snakeCase => snake_case
